@@ -1,0 +1,73 @@
+POLÍTICA DE PRIVACIDAD / PRIVACY POLICY
+Extensión: AdBlocker Total (Bloqueador de Anuncios)
+Autor / Desarrollador: Mariano Damian
+Última actualización: Noviembre 2026
+
+================================================================================
+VERSIÓN EN ESPAÑOL
+================================================================================
+
+1. COMPROMISO FUNDAMENTAL CON LA PRIVACIDAD
+La extensión "AdBlocker Total (Bloqueador de Anuncios)", creada por Mariano Damian, tiene como único y exclusivo fin proteger al usuario frente a la publicidad invasiva, banners molestos, ventanas emergentes (popups), rastreadores de terceros y comerciales en videos durante la navegación web. La privacidad del usuario es primordial: esta extensión NO recopila, NO almacena en servidores externos, NO rastrea ni comparte ningún tipo de información personal, sensible ni de navegación.
+
+2. INFORMACIÓN QUE NO SE RECOPILA NI SE TRANSMITE
+Bajo ninguna circunstancia la extensión recoge ni procesa:
+- Datos de identidad personal: nombres, direcciones de correo electrónico, números de teléfono o domicilios.
+- Credenciales de acceso: nombres de usuario, contraseñas, tokens de autenticación o cookies de sesión.
+- Información financiera: números de tarjetas de crédito/débito, cuentas bancarias o transacciones comerciales.
+- Historial de navegación y consultas: URLs completas visitadas, términos de búsqueda o formularios completados.
+- Datos de telemetría y analítica: no se registran direcciones IP, perfiles de usuario ni hábitos de uso.
+
+3. USO DE PERMISOS TÉCNICOS
+Todos los permisos solicitados se limitan estrictamente a lo requerido para el bloqueo publicitario y el conteo en tiempo real:
+- declarativeNetRequest / declarativeNetRequestFeedback: Para interceptar y cancelar solicitudes de red dirigidas a dominios publicitarios y de rastreo antes de que se descarguen en el equipo del usuario.
+- storage: Emplea el almacenamiento local (chrome.storage.local) en el navegador del usuario para guardar únicamente la preferencia del interruptor (activado/desactivado) y el contador numérico de anuncios bloqueados.
+- tabs / activeTab: Para asociar el número de bloqueos a la pestaña activa en primer plano y reflejarlo en el indicador numérico (badge) del icono.
+- Permiso de Host (<all_urls>): Necesario para ejecutar el bloqueo publicitario, filtrado cosmético CSS y auto-salto de comerciales en cualquier página web visitada por el usuario.
+
+4. PROCESAMIENTO 100% LOCAL
+Todo el análisis y bloqueo se realiza de forma inmediata y local en el propio navegador web del usuario. La extensión no se conecta a servidores externos propios ni transmite datos de navegación a terceros.
+
+5. NO COMERCIALIZACIÓN DE DATOS
+No vendemos, no alquilamos, no transferimos ni cedemos datos de los usuarios a redes de publicidad, intermediarios de datos ni plataformas comerciales.
+
+6. CUMPLIMIENTO DE POLÍTICAS DE CHROME WEB STORE
+"AdBlocker Total" cumple plenamente con el Reglamento del Programa para Desarrolladores de Chrome Web Store, observando los principios de Propósito Único (Single Purpose), Uso Mínimo de Permisos (Limited Use) y Protección Absoluta de Datos de Usuario.
+
+7. CONTACTO
+Para cualquier inquietud o consulta relacionada con esta Política de Privacidad, el usuario puede comunicarse con el desarrollador mediante los canales oficiales de soporte provistos en la ficha de la extensión en Chrome Web Store.
+
+
+================================================================================
+ENGLISH VERSION (PRIVACY POLICY)
+================================================================================
+
+1. COMMITMENT TO PRIVACY
+The extension "AdBlocker Total (Bloqueador de Anuncios)", developed by Mariano Damian, is built solely to protect users against intrusive advertising, banners, popups, video ads, and third-party trackers across the internet. User privacy is a core principle: this extension DOES NOT collect, transmit, store externally, or share any personal, sensitive, or browsing data.
+
+2. DATA NOT COLLECTED
+Under no circumstances does this extension collect, log, or transfer:
+- Personally Identifiable Information: names, email addresses, phone numbers, or physical addresses.
+- Credentials and Authentication: usernames, passwords, auth tokens, or browsing cookies.
+- Financial Information: payment cards, banking information, or transactions.
+- Browsing Activity: full URLs, browsing history, form inputs, or search queries.
+- Analytics and Telemetry: no IP logging, fingerprinting, or user behavioral tracking.
+
+3. USE OF PERMISSIONS
+Permissions are strictly scoped to the technical requirements of ad blocking:
+- declarativeNetRequest / declarativeNetRequestFeedback: To block network requests matching known ad and tracker filter lists directly at the browser engine level.
+- storage: Uses chrome.storage.local purely on the client side to persist the user's toggle setting (on/off) and total ad-blocking statistics.
+- tabs / activeTab: To compute and display the blocked ad counter on the extension icon badge specifically for the foreground tab.
+- Host Permission (<all_urls>): Essential to allow cosmetic CSS filtering and ad-blocking rules to protect the user on all websites they choose to visit.
+
+4. 100% CLIENT-SIDE OPERATION
+All operations, filtering rules, and statistics calculation run entirely locally on the user's machine. The extension operates without remote backend servers and never transmits webpage content across the internet.
+
+5. THIRD-PARTY DISCLOSURE
+We do not sell, license, rent, or transfer any user information to third-party advertisers, data brokers, or commercial entities.
+
+6. GOOGLE CHROME WEB STORE COMPLIANCE
+"AdBlocker Total" fully complies with the Google Chrome Web Store Developer Program Policies, specifically the Single Purpose Policy, User Data Policy, and Limited Use Requirements.
+
+7. CONTACT
+For any questions regarding this Privacy Policy, users may contact the developer through the official support channels on the Chrome Web Store extension page.
